@@ -2,5 +2,4 @@ dummy
 =====
 
 
-YOLO
-2
+YOLO 3
