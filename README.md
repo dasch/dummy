@@ -1,4 +1,4 @@
 dummy
 =====
 
-YO LO
+YOLO
