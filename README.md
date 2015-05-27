@@ -1,5 +1,4 @@
 dummy
 =====
 
-
-YOLO 5
+YOLO
