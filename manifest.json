@@ -1,0 +1,12 @@
+{
+  "roles": {
+    "web": {
+      "strategy": "zero_downtime",
+      "command": "bin/unicorn -e $RACK_ENV -p $PORT"
+    },
+    "worker": {
+      "strategy": "full_stop",
+      "command": "bin/resque -e $RACK_ENV"
+    }
+  }
+}
